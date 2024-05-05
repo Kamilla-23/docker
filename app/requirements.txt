@@ -1,2 +1,7 @@
 Flask
 Redis
+python-dotenv
+pandas
+plotly
+matplotlib
+os
