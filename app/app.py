@@ -3,8 +3,6 @@ import redis
 from flask import Flask, render_template, send_from_directory
 import pandas as pd
 import matplotlib.pyplot as plt
-import io
-import os
 
 app = Flask(__name__)
 cache = redis.Redis(host='redis', port=6379)
